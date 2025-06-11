@@ -110,7 +110,7 @@ def busqueda_binaria(lista_numerica: list, dato_a_buscar: int):
     # Caso base: lista vacía
     if len(lista_numerica) == 0:
         return -1
-
+    
     # Encontramos el elemento del medio
     mitad_lista = len(lista_numerica) // 2
     
